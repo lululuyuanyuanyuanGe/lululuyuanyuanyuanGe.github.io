@@ -248,6 +248,11 @@
         .proj-list .arrow {
             font-weight: 600; flex-shrink: 0; margin-top: 1px;
         }
+        .proj-context {
+            font-size: 0.84rem; color: var(--text-3);
+            line-height: 1.6; margin-bottom: 14px;
+            font-style: italic;
+        }
         .proj-tags { display: flex; flex-wrap: wrap; gap: 6px; }
         .proj-tag {
             font-family: 'Space Mono', monospace;
@@ -411,13 +416,13 @@
         <div class="wrap">
             <h1 class="hero-name fi">Juntao<br>Peng</h1>
             <p class="hero-sub fi fi-d1"><span>Product</span> · AI Interaction · Systems Design</p>
-            <p class="hero-summary fi fi-d2">Interested in AI-driven interaction systems and automation workflows. Focused on reducing operational complexity and improving system predictability through structured design and practical implementation.</p>
+            <p class="hero-summary fi fi-d2">Product-minded builder with hands-on experience at Xiaomi and a track record of shipping full-stack tools and AI interaction research. I reduce operational complexity and improve system predictability through structured design, user research, and practical implementation.</p>
             <div class="hero-links fi fi-d3">
                 <a href="mailto:hello@juntaopeng.com">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
                     hello@juntaopeng.com
                 </a>
-                <a href="https://linkedin.com/in/" target="_blank" rel="noopener">
+                <a href="www.linkedin.com/in/jimpengg" target="_blank" rel="noopener">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
                     LinkedIn
                 </a>
@@ -445,11 +450,11 @@
                     <span class="exp-date">Jul 2025 &mdash; Aug 2025</span>
                 </div>
                 <ul class="exp-list">
-                    <li><span class="arrow">&rarr;</span>Structured feature documents &rarr; reduced communication ambiguity</li>
-                    <li><span class="arrow">&rarr;</span>Categorized community feedback &rarr; identified major usability issues</li>
-                    <li><span class="arrow">&rarr;</span>Compared competitor interaction flows &rarr; revealed missing steps</li>
-                    <li><span class="arrow">&rarr;</span>Logged testing issues &rarr; exposed pre-release defects</li>
-                    <li><span class="arrow">&rarr;</span>Documented edge scenarios &rarr; prevented post-launch misuse</li>
+                    <li><span class="arrow">&rarr;</span>Structured feature documents for multiple product releases &rarr; reduced cross-team communication ambiguity</li>
+                    <li><span class="arrow">&rarr;</span>Categorized community feedback from user forums &rarr; surfaced top usability issues and prioritized fixes</li>
+                    <li><span class="arrow">&rarr;</span>Benchmarked competitor interaction flows across 4+ products &rarr; revealed gaps in onboarding and navigation</li>
+                    <li><span class="arrow">&rarr;</span>Logged QA issues across sprint cycles &rarr; caught pre-release defects before public rollout</li>
+                    <li><span class="arrow">&rarr;</span>Documented edge-case scenarios for key features &rarr; prevented post-launch misuse and support escalation</li>
                 </ul>
             </div>
         </div>
@@ -465,6 +470,7 @@
                 <div class="proj-card proj-card--featured fi fi-d1">
                     <div class="proj-name">Data Annotation Workflow Platform</div>
                     <div class="proj-date">Sep 2025 &mdash; Nov 2025</div>
+                    <p class="proj-context">Full-stack platform for managing multi-annotator data labeling workflows, built to handle concurrent editing, versioning, and real-time team coordination.</p>
                     <ul class="proj-list">
                         <li><span class="arrow">&rarr;</span>Implemented incremental data loading &rarr; handled large dataset rendering</li>
                         <li><span class="arrow">&rarr;</span>Applied optimistic locking in MongoDB &rarr; prevented concurrent overwrite</li>
@@ -487,6 +493,7 @@
                 <div class="proj-card proj-card--amber fi fi-d2">
                     <div class="proj-name">Agent Smartphone Interaction Study</div>
                     <div class="proj-date">Oct 2024 &mdash; Jan 2025</div>
+                    <p class="proj-context">Research on how AI agents can autonomously complete multi-step tasks on smartphones while keeping users in control of high-stakes actions.</p>
                     <ul class="proj-list">
                         <li><span class="arrow">&rarr;</span>Analyzed task workflows &rarr; identified multi-app goal completion friction</li>
                         <li><span class="arrow">&rarr;</span>Designed plan-preview interaction &rarr; reduced uncertainty of automation</li>
@@ -505,6 +512,7 @@
                 <div class="proj-card proj-card--emerald fi fi-d3">
                     <div class="proj-name">Vehicle&ndash;Home Automation Scenario Research</div>
                     <div class="proj-date">Jan 2025 &mdash; Jun 2025 &middot; Remote</div>
+                    <p class="proj-context">Exploring seamless automation between vehicles and smart home devices to eliminate repetitive manual operations during daily commutes.</p>
                     <ul class="proj-list">
                         <li><span class="arrow">&rarr;</span>Studied commuting behavior &rarr; identified repetitive vehicle interactions</li>
                         <li><span class="arrow">&rarr;</span>Designed return-home automation &rarr; reduced manual driving operations</li>
@@ -543,9 +551,11 @@
                         <span class="skill-dot skill-dot--emerald"></span>
                         Technical
                     </div>
-                    <div class="skill-item">Python (Basic)</div>
-                    <div class="skill-item">REST API Concepts</div>
-                    <div class="skill-item">Data Structuring</div>
+                    <div class="skill-item">JavaScript / React</div>
+                    <div class="skill-item">Node.js / Express</div>
+                    <div class="skill-item">MongoDB</div>
+                    <div class="skill-item">Python</div>
+                    <div class="skill-item">WebSocket / REST API</div>
                     <div class="skill-item">System Workflow Design</div>
                 </div>
                 <div>
